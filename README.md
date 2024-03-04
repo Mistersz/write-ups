@@ -1,1 +1,6 @@
-# Repository for storing my CTF´s write-ups
+# Write-Ups
+
+- This is a repository for storing my write-ups / CTF solutions
+
+- Until now it contains solves for:
+
