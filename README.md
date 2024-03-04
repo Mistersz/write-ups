@@ -1,6 +1,6 @@
 # Write-Ups
 
-- This is a repository for storing my write-ups / CTF solutions
+## This is a repository for storing my write-ups / CTF solutions
 
-- Until now it contains solves for:
+Until now it contains solves for:
 
