@@ -48,7 +48,7 @@ int main(void) {
     return 0;
 }
 ```
----
+
 
 Let´s try to see this program **backwards**:
 
@@ -90,7 +90,7 @@ printf("How much pp did you get? ");
 So now we know that in order to enter that if statement and get the flag we need first
 guarantee that pp > my_pp (since in the case of pp <= my_pp), we would enter another if statement.
 
----
+
 So far so good, so we basically need:
 <br>
 
