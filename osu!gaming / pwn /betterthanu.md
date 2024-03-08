@@ -116,12 +116,26 @@ Taking a look at the code with Ghidra, we can see where are the variables on the
   <img src="https://github.com/Mistersz/Write-Ups/assets/82767252/acfcced0-ce59-44f1-ba12-7b348b15b68c"/>
 </p>
 
-We can see a few things:
+We can conclude a few things:
 
 - local_28 is our buffer
 - local_c is our pp variable (because it is the variable that recieves the return of atoi function)
 - local_18 is our my_pp variable (since it takes local_c and increments by 1)
 - local_18 is 16 bytes away from local_28 (and since the buffer grows from the lower address to the highest it´s possible to change local_18!)
 
-  
+With that in mind we can:
+
+1 - Use the first input to set pp = 727.
+
+2 - Use the second input to overflow the buffer and then change my_pp to a value lower than 727.
+
+
+# Exploit
+
+For that we can craft a little bufferoveflow exploit with pwntools:
+
+<p align="center">
+  <img src=""/>
+</p>
+
 
