@@ -53,7 +53,7 @@ int main(void) {
 Let´s try to see this program **backwards**:
 
 
-- We can notice this if statement has a fgets functionthat will lead us to the flag file.
+- We can notice this if statement has a fgets function that will lead us to the flag file.
 
 ```C
   if (pp == 727) {
