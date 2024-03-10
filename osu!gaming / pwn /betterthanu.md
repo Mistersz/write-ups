@@ -136,7 +136,19 @@ With that in mind we can:
 For that we can craft a little bufferoveflow exploit with pwntools:
 
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/Mistersz/Write-Ups/assets/82767252/d3e06a97-35bc-4ba7-9456-273e40b3ed55"/>
 </p>
+
+With this code we are basically:
+
+- Sending a first input of 727
+- Sending a payload of 16 0´s and a 0
+
+Since we are writting 16 0´s and a 0 we will overflow the buffer and change the variable my_pp
+That way, we will have p = 727, and my_pp = 0
+
+And we get this output:
+
+
 
 
