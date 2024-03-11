@@ -148,6 +148,9 @@ Since we are writting 16 0´s and a 0 we will overflow the buffer and change the
 That way, we will have p = 727, and my_pp = 0
 
 And we get this output:
+<p align="center">
+  <img src="https://github.com/Mistersz/Write-Ups/assets/82767252/e26e4a6b-ef27-4938-8d73-dcaa682bc299"/>
+</p>
 
 
 
