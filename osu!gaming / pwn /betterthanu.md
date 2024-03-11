@@ -65,7 +65,7 @@ Let´s try to see this program **backwards**:
             printf("%s\n", flag);
         }
 ```
-So we definally need the variable **p** to be 727.
+So we definally need the variable **pp** to be 727.
 
 Scrolling up the code we see:
 
