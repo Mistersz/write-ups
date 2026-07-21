@@ -1,6 +1,6 @@
 # Write-Ups
 
-This is a repository for storing my write-ups for CTF problems and also solves for virtual machine challenges.
+challenge solves
 
 Until now it contains solves for:
 
